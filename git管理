@@ -1,0 +1,11 @@
+MacBook-Air:~ tomoe$ cd ~/Desktop
+MacBook-Air:Desktop tomoe$ cd intro_git
+MacBook-Air:intro_git tomoe$ ls
+first.txt
+MacBook-Air:intro_git tomoe$ git init
+Initialized empty Git repository in /Users/tomoe/Desktop/intro_git/.git/
+MacBook-Air:intro_git tomoe$ ls -a
+.		..		.git		first.txt
+MacBook-Air:intro_git tomoe$ ls -a .git/
+.		HEAD		description	info		refs
+..		config		hooks		objects
